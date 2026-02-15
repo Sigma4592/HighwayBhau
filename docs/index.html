@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HighwayBhau - Your Highway Co-Traveller</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .subtitle {
+            font-size: 1.5rem;
+            opacity: 0.9;
+            margin-bottom: 3rem;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        .feature {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚗 HighwayBhau</h1>
+        <p class="subtitle">Your Highway Co-Traveller</p>
+        
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">📍</div>
+                <h3>GPS Tracking</h3>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🗺️</div>
+                <h3>Smart Discovery</h3>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🔔</div>
+                <h3>Timely Alerts</h3>
+            </div>
+            <div class="feature">
+                <div class="feature-icon">🧭</div>
+                <h3>Navigation</h3>
+            </div>
+        </div>
+        
+        <p style="margin-top: 3rem;">Made with ❤️ for Indian highway travelers</p>
+    </div>
+</body>
+</html>
